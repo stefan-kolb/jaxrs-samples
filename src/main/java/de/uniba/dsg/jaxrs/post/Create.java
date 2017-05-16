@@ -1,4 +1,4 @@
-package de.uniba.jaxrs.post;
+package de.uniba.dsg.jaxrs.post;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 import javax.ws.rs.core.UriInfo;
 
-import de.uniba.jaxrs.models.Cat;
-import de.uniba.jaxrs.stubs.CatsService;
+import de.uniba.dsg.jaxrs.models.Cat;
+import de.uniba.dsg.jaxrs.stubs.CatsService;
 
 @Path("cats")
 public class Create {

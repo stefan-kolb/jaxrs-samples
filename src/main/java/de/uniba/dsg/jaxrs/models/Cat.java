@@ -1,4 +1,4 @@
-package de.uniba.jaxrs.models;
+package de.uniba.dsg.jaxrs.models;
 
 public class Cat {
     public int id;

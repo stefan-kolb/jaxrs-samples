@@ -1,4 +1,4 @@
-package de.uniba.jaxrs;
+package de.uniba.dsg.jaxrs;
 
 import java.net.URI;
 import java.util.Properties;

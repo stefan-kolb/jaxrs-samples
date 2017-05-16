@@ -1,4 +1,4 @@
-package de.uniba.jaxrs;
+package de.uniba.dsg.jaxrs;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package de.uniba.jaxrs.stubs;
+package de.uniba.dsg.jaxrs.stubs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import de.uniba.jaxrs.models.Cat;
+import de.uniba.dsg.jaxrs.models.Cat;
 
 public class CatsService {
     private static final List<Cat> CATS = new ArrayList<>();

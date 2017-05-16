@@ -1,12 +1,12 @@
-package de.uniba.jaxrs.get;
+package de.uniba.dsg.jaxrs.get;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.WebApplicationException;
 
-import de.uniba.jaxrs.models.Cat;
-import de.uniba.jaxrs.stubs.CatsService;
+import de.uniba.dsg.jaxrs.models.Cat;
+import de.uniba.dsg.jaxrs.stubs.CatsService;
 
 @Path("cats")
 public class ReadSingle {

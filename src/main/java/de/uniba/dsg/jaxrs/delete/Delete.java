@@ -1,11 +1,11 @@
-package de.uniba.jaxrs.delete;
+package de.uniba.dsg.jaxrs.delete;
 
 import javax.ws.rs.DELETE;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.WebApplicationException;
 
-import de.uniba.jaxrs.stubs.CatsService;
+import de.uniba.dsg.jaxrs.stubs.CatsService;
 
 @Path("cats")
 public class Delete {
