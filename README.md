@@ -3,6 +3,8 @@
 *Sample projects using JAX-RS technologies.*
 
 Use `gradlew run` to start the JAX-RS server.
+The server is available at `localhost:9999` per default. 
+This can be configured via `src/main/resources/config.properties`.
 
 The following resources are available:
 
