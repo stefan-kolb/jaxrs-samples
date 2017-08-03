@@ -20,7 +20,6 @@ dependencies {
     compile group: 'org.glassfish.jersey.media', name: 'jersey-media-moxy', version: '2.25.1'
 
     compile 'org.glassfish.jersey.core:jersey-client:2.25.1'
-    compile group: 'javax.xml.ws', name: 'jaxws-api', version: '2.2.11'
 
     testCompile 'org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:2.25.1'
 }
