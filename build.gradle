@@ -16,7 +16,7 @@ repositories {
 dependencies {
     compile group: 'org.glassfish.jersey.core', name: 'jersey-server', version: '2.28'
     compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-jdk-http', version: '2.28'
-    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.25.1'
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.28'
     compile group: 'org.glassfish.jersey.media', name: 'jersey-media-moxy', version: '2.28'
 
     compile 'org.glassfish.jersey.core:jersey-client:2.25.1'
