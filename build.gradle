@@ -17,7 +17,7 @@ dependencies {
     compile group: 'org.glassfish.jersey.media', name: 'jersey-media-moxy', version: '2.28'
     // needed since version 2.26 and newer are not backward compatible
     // https://stackoverflow.com/questions/44088493/jersey-stopped-working-with-injectionmanagerfactory-not-found
-    compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.28'
+    compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.29.1'
 
     compile 'org.glassfish.jersey.core:jersey-client:2.28'
 
