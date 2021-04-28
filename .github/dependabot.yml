@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.glassfish.jersey.core:jersey-client
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.core:jersey-server
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.media:jersey-media-moxy
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.inject:jersey-hk2
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.containers:jersey-container-jdk-http
+    versions:
+    - 3.0.0
+  - dependency-name: org.glassfish.jersey.containers:jersey-container-servlet-core
+    versions:
+    - 3.0.0
